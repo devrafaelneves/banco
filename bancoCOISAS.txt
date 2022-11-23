@@ -1,0 +1,72 @@
+gestao academica 
+
+lista de todas as tabelas 
+diagrama ER (entidade de relacionamento)
+dbdiagram.io/d
+
+alunos 
+cursos
+semestres
+materias
+notas
+professores 
+
+relatorios de alunos por turma e semestre 
+notas por aluno 
+alunos aprovados e reprovados 
+medias de notas por alumpos e por materias 
+
+
+		TURMA 
+ID TURMA
+TURMA
+DATA INICIAL
+DATA FINAL 
+ANO
+ID_CURSO
+
+		CURSO
+ID CURSO
+NOME
+ID MATERIA
+ID SEMESTRE
+		
+		ALUNO TURMA 
+ID ALUNO TURMA
+ID ALUNO
+ID TURMA
+MATRICULADO
+
+
+		ALUNO 
+ID ALUNO
+NOME
+CPF
+
+	PROFESSOR TURMA MATERIA
+ID ...
+ID PROFESSOR
+ID TURMA
+ID MATERIA
+
+		APROVADO
+ID APROVADO
+APROVADO
+
+		MATERIA
+ID MATERIA
+NOME 
+		
+		PROFESSOR
+ID PROFESSOR
+NOME 
+ID_MATERIA
+
+		SEMESTRES 
+ID SEMESTRES
+SEMESTRE CURSO
+SEMESTRE ALUNOS
+id_aprovado
+http://www.devmedia.com.br/imagens/gold/sql/04/artigo1/image1.jpg
+
+
